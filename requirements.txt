@@ -1,0 +1,9 @@
+agno
+openai
+streamlit
+pandas
+python-dotenv
+pypdf
+lancedb
+tantivy
+yfinance
