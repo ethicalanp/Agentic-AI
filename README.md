@@ -7,3 +7,14 @@ OpenAI API: Integration with OpenAI for generating embeddings and making intelli
 
 Groq API: Integration with Groq to accelerate AI computations and leverage specialized hardware.
 
+# Technologies Used 
+python 3.12
+agno
+openai
+streamlit
+pandas
+python-dotenv
+pypdf
+lancedb
+tantivy
+yfinance
