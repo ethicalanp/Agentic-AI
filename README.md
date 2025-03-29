@@ -9,12 +9,21 @@ Groq API: Integration with Groq to accelerate AI computations and leverage speci
 
 # Technologies Used 
 python 3.12
+
 agno
+
 openai
+
 streamlit
+
 pandas
+
 python-dotenv
+
 pypdf
+
 lancedb
+
 tantivy
+
 yfinance
