@@ -42,4 +42,5 @@ agent_team=Agent(
     markdown=True,
 )
 
+
 agent_team.print_response("Analyse companies in USA like Tesla ,NVDA,Google,Apple and suggest to buy for long term")
