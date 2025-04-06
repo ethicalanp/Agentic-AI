@@ -14,6 +14,8 @@ agno
 
 openai
 
+Groq
+
 streamlit
 
 pandas
