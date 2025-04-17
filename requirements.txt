@@ -1,9 +1,9 @@
 agno
 openai
+Groq
 streamlit
 pandas
 python-dotenv
 pypdf
 lancedb
 tantivy
-
