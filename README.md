@@ -1,5 +1,5 @@
 # Agentic-AI
-Building An Agentic-AI application using Agno
+Building An Agentic-AI application using Agno .
 
 This project demonstrates how an agent can manage its memory, make decisions based on context, and interact with multiple data sources.
 
