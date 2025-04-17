@@ -6,4 +6,4 @@ python-dotenv
 pypdf
 lancedb
 tantivy
-yfinance
+

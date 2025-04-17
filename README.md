@@ -28,4 +28,3 @@ lancedb
 
 tantivy
 
-yfinance
