@@ -11,9 +11,9 @@ os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 
 agent=Agent(
-    model=Groq(id="qwen-2.5-32b"),
+    model=Groq(id="mistral-saba-24b"),
     description="You are an assistant please repley based on the questions ",
     tools=[DuckDuckGoTools()],
     markdown=True
 )
-agent.print_response("Who won the fifa world cup in 2022")
+#agent.print_response("Who won the fifa world cup in 2022")

@@ -16,7 +16,7 @@ os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 web_agent=Agent(
     name="Web Agent",
     role="search the web for information",
-    model=Groq(id="qwen-2.5-32b"),
+    model=Groq(id="mistral-saba-24b"),
     tools=[DuckDuckGoTools()],
     introduction="Always include the sources",
     show_tool_calls=True,
@@ -36,11 +36,11 @@ finance_agent= Agent(
 
 agent_team=Agent(
     team=[web_agent,finance_agent],
-    model=Groq(id="qwen-2.5-32b"),
+    model=Groq(id="mistral-saba-24b"),
     instructions=["Always include the sources","Use tables to dispaly data"],
     show_tool_calls=True,
     markdown=True,
 )
 
 
-agent_team.print_response("Analyse companies in USA like Tesla ,NVDA,Google,Apple and suggest to buy for long term")
+#agent_team.print_response("Analyse companies in USA like Tesla ,NVDA,Google,Apple and suggest to buy for long term")
