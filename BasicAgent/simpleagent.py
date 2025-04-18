@@ -16,4 +16,5 @@ agent=Agent(
     tools=[DuckDuckGoTools()],
     markdown=True
 )
+
 #agent.print_response("Who won the fifa world cup in 2022")
